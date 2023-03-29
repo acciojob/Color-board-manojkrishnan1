@@ -10,8 +10,7 @@
 }
 .square:hover{
     animation-name: hoverAnimation;
-    animation-duration: 1s;
-    animation-delay: 1s;
+    animation-duration: 3s;
     animation-direction: reverse;
     animation-fill-mode: backwards;
 }
