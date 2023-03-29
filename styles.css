@@ -2,6 +2,7 @@
     width:18px;
     height:18px;
 	background-color: rgb(29, 29, 29);
+	transition-delay: 5s;
 }
 .container{
     display: grid;
@@ -9,9 +10,10 @@
     grid-template-columns: repeat(80, 20px);
 }
 .square:hover{
-    animation-name: hoverAnimation;
-    animation-duration: 1s;
-    animation-direction: reverse;
+	
+	animation-name: hoverAnimation;
+    animation-duration: 0.2s;
+    animation-direction: forwards;
     animation-fill-mode: backwards;
 }
 @keyframes hoverAnimation{
