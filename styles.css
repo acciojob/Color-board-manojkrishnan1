@@ -1,6 +1,7 @@
 .square{
     width:18px;
     height:18px;
+	background-color: rgb(29, 29, 29);
 }
 .container{
     display: grid;
@@ -9,13 +10,12 @@
 }
 .square:hover{
     animation-name: hoverAnimation;
-    animation-duration: 3s;
+    animation-duration: 1s;
     animation-direction: reverse;
     animation-fill-mode: backwards;
 }
 @keyframes hoverAnimation{
     from{
-        background-color: rgb(29, 29, 29);
     }
     to{
         background-color: red;
