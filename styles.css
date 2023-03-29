@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+.square{
+    width:18px;
+    height:18px;
+    background-color: grey;
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(100, 20px);
+    grid-template-columns: repeat(80, 20px);
+}
+.square:hover{
+    animation-name: hoverAnimation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+}
+@keyframes hoverAnimation{
+    from{
+        background-color: grey;
+    }
+    to{
+        background-color: red;
+    }
+}
