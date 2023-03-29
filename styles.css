@@ -1,7 +1,6 @@
 .square{
     width:18px;
     height:18px;
-    background-color: rgb(29, 29, 29);
 }
 .container{
     display: grid;
